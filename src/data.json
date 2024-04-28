@@ -11,7 +11,7 @@
         "Designed & implemented reactive ECS",
         "Experimented successfully with Actor model-based concurrency",
         "Designed & implemented level editor",
-        "Wrote game code that renders its animated 3D environment at ~120FPS in Web browsers",
+        "Wrote game code that renders animated 3D environment at ~120FPS in Web browsers",
         "Set up Linux Web server in my garage (innerlogic.co) to host my projects",
         "Designed & implemented netcode for fast-paced multiplayer game"
       ]
