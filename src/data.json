@@ -11,7 +11,7 @@
         "Designed & implemented reactive ECS",
         "Experimented successfully with Actor model-based concurrency",
         "Designed & implemented level editor",
-        "Wrote game code that renders animated 3D environment at ~120FPS in Web browsers",
+        "Wrote game code that renders animated 3D environment at 120+ FPS in Web browsers",
         "Set up Linux Web server in my garage (innerlogic.co) to host my projects",
         "Designed & implemented netcode for fast-paced multiplayer game"
       ]
@@ -51,7 +51,7 @@
       "start": "October 2018",
       "end": "January 2021",
       "description": [
-        "Implemented microservice that reduced time to first meaningful paint for one of company’s Web properties by ~15%",
+        "Implemented microservice that reduced time to first meaningful paint for Web property by ~15%",
         "Developed internal tooling, because it was worth doing",
         "Mentored junior engineers"
       ]
@@ -168,12 +168,13 @@
     "UX",
     "Agile",
     "Writing",
-    "Listening & Cooperation"
+    "Listening",
+    "Cooperation"
   ],
   "skillLanguages": [
-    "Spanish (elementary)",
-    "Japanese (elementary)",
-    "English (native)"
+    "Spanish",
+    "Japanese",
+    "English"
   ],
   "projects": [
     {
