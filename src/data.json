@@ -8,12 +8,12 @@
       "employmentType": "self-employed",
       "start": "February 2023",
       "description": [
-        "Designed & implemented a reactive ECS",
+        "Designed & implemented reactive ECS",
         "Experimented successfully with Actor model-based concurrency",
-        "Designed & implemented a level editor",
+        "Designed & implemented level editor",
         "Wrote game code that renders its animated 3D environment at ~120FPS in Web browsers",
-        "Set up a Linux Web server in my garage (innerlogic.co) to host my projects",
-        "Designed & implemented netcode for a fast-paced multiplayer game"
+        "Set up Linux Web server in my garage (innerlogic.co) to host my projects",
+        "Designed & implemented netcode for fast-paced multiplayer game"
       ]
     },
     {
@@ -25,8 +25,8 @@
       "start": "July 2022",
       "end": "January 2023",
       "description": [
-        "Integrated A* path-finding into the AI for non-player characters",
-        "Fixed bugs in the Physics system",
+        "Integrated A* path-finding into AI for non-player characters",
+        "Fixed bugs in Physics system",
         "Advised with regards to best-practices and efficient collaboration workflows"
       ]
     },
@@ -51,7 +51,7 @@
       "start": "October 2018",
       "end": "January 2021",
       "description": [
-        "Implemented a microservice that reduced the time to first meaningful paint for one of the company’s Web properties by ~15%",
+        "Implemented microservice that reduced time to first meaningful paint for one of company’s Web properties by ~15%",
         "Helped develop internal tooling, because it was worth doing",
         "Mentored junior engineers"
       ]
@@ -65,8 +65,7 @@
       "start": "November 2016",
       "end": "February 2018",
       "description": [
-        "Designed & implemented a WYSIWYG form builder",
-        "Created a rapid prototyping scaffold"
+        "Designed & implemented WYSIWYG form builder"
       ]
     },
     {
@@ -76,8 +75,8 @@
       "remote": false,
       "employmentType": "full-time",
       "description": [
-        "Created a rapid prototyping scaffold",
-        "Implemented a “replay recent trips” feature using GIS data from onboard telemetry devices"
+        "Created rapid prototyping scaffold",
+        "Implemented “replay recent trips” feature using GIS data from onboard telemetry devices"
       ]
     },
     {
@@ -185,7 +184,7 @@
     {
       "name": "No internet",
       "href": "https://maladr0it.github.io/ggj2024/",
-      "description": "clone of a Google Chrome easter egg, with some twists."
+      "description": "clone of Google Chrome easter egg, with some twists."
     },
     {
       "name": "Kbdsmash",
