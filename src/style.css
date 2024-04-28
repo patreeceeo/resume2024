@@ -131,19 +131,19 @@ date {
   font-size: 0.75rem;
 }
 .skill.skill-programming {
-  background-color: var(--color-green);
-}
-.skill.skill-concept {
-  background-color: var(--color-blue);
+  background-color: var(--color-orange);
 }
 .skill.skill-tool {
   background-color: var(--color-red);
 }
-.skill.skill-language {
-  background-color: var(--color-orange);
+.skill.skill-concept {
+  background-color: var(--color-purple);
 }
 .skill.skill-soft {
-  background-color: var(--color-purple);
+  background-color: var(--color-blue);
+}
+.skill.skill-language {
+  background-color: var(--color-green);
 }
 
 
