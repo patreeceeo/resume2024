@@ -1,0 +1,169 @@
+/** RESET **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** VARIABLES **/
+:root {
+  --color-green: #1db36a;
+  --color-blue: #1e90ff;
+  --color-red: #ff4d4d;
+  --color-purple: #a64dff;
+  --color-orange: #cc6600;
+  --color-pink: #ff66a3;
+}
+
+
+/** COLORS **/
+a {
+  color: var(--color-orange);
+}
+
+h1, h2 {
+  color: var(--color-green);
+}
+
+
+/** TYPOGRAPHY **/
+:root {
+  font-size: 11pt;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 9.5in;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Paytone One', sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Paytone One', sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 900;
+}
+
+date {
+  font-size: 1rem;
+  font-weight: 200;
+  display: block;
+}
+
+/** LISTS **/
+
+.list .list-item {
+  display: flex;
+  flex-direction: row;
+}
+.list .list-item::before {
+  content: 'λ';
+  color: var(--color-green);
+  font-weight: 900;
+  margin-right: 0.5rem;
+}
+
+#divSkills {
+  margin-left: -0.25rem;
+}
+
+.skill {
+  display: inline-block;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  color: white;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+.skill.skill-programming {
+  background-color: var(--color-green);
+}
+.skill.skill-concept {
+  background-color: var(--color-blue);
+}
+.skill.skill-tool {
+  background-color: var(--color-red);
+}
+.skill.skill-language {
+  background-color: var(--color-orange);
+}
+.skill.skill-soft {
+  background-color: var(--color-purple);
+}
+
+
+/** SPACING **/
+body {
+  margin: 0 auto;
+}
+h2, h3, p {
+  margin-top: 1rem;
+}
+h1 {
+  margin-bottom: 2rem;
+}
+h2, p {
+  margin-bottom: 1rem;
+}
+h3, date, .list-item {
+  margin-bottom: 0.5rem;
+}
+td {
+  padding-right: 2rem;
+}
+

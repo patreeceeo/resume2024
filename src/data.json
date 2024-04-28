@@ -1,0 +1,207 @@
+{
+  "experience": [
+    {
+      "company": "innerlogic.co",
+      "location": "San Francisco",
+      "position": "Game developer / technical writer",
+      "remote": false,
+      "employmentType": "self-employed",
+      "start": "February 2023",
+      "description": [
+        "Designed & implemented a reactive ECS",
+        "Experimented successfully with Actor model-based concurrency",
+        "Designed & implemented a level editor",
+        "Wrote game code that renders its animated 3D environment at ~120FPS in Web browsers",
+        "Set up a Linux Web server in my garage (innerlogic.co) to host my projects",
+        "Designed & implemented netcode for a fast-paced multiplayer game"
+      ]
+    },
+    {
+      "company": "Mappa Labs",
+      "location": "San Francisco",
+      "position": "Technical consultant",
+      "remote": true,
+      "employmentType": "contract",
+      "start": "July 2022",
+      "end": "January 2023",
+      "description": [
+        "Integrated A* path-finding into the AI for non-player characters",
+        "Fixed bugs in the Physics system",
+        "Advised with regards to best-practices and efficient collaboration workflows"
+      ]
+    },
+    {
+      "company": "Infinite Reality",
+      "location": "San Francisco",
+      "position": "Technical consultant",
+      "remote": true,
+      "employmentType": "contract",
+      "start": "July 2021",
+      "end": "January 2022",
+      "description": [
+        "Design & implemented system that transforms data from GIS services (e.g. Mapbox) into 3d environments during gameplay"
+      ]
+    },
+    {
+      "company": "Rally Health",
+      "location": "San Francisco",
+      "position": "Sr. Software Engineer",
+      "remote": false,
+      "employmentType": "full-time",
+      "start": "October 2018",
+      "end": "January 2021",
+      "description": [
+        "Implemented a microservice that reduced the time to first meaningful paint for one of the company’s Web properties by ~15%",
+        "Helped develop internal tooling, because it was worth doing",
+        "Mentored junior engineers"
+      ]
+    },
+    {
+      "company": "EventRay",
+      "location": "San Francisco",
+      "position": "Cofounder, Software Engineer",
+      "remote": true,
+      "employmentType": "full-time",
+      "start": "November 2016",
+      "end": "February 2018",
+      "description": [
+        "Designed & implemented a WYSIWYG form builder",
+        "Created a rapid prototyping scaffold"
+      ]
+    },
+    {
+      "company": "Metromile",
+      "location": "San Francisco",
+      "position": "Software Engineer",
+      "remote": false,
+      "employmentType": "full-time",
+      "description": [
+        "Created a rapid prototyping scaffold",
+        "Implemented a “replay recent trips” feature using GIS data from onboard telemetry devices"
+      ]
+    },
+    {
+      "company": "GoGet.Fit",
+      "location": "Various",
+      "position": "Software Engineer",
+      "remote": true,
+      "employmentType": "contract"
+    },
+    {
+      "company": "Synack",
+      "location": "Redwood City, CA",
+      "position": "Software Engineer",
+      "remote": false,
+      "employmentType": "full-time"
+    },
+    {
+      "company": "Constant Contact",
+      "location": "San Francisco",
+      "position": "Software Engineer",
+      "remote": false,
+      "employmentType": "full-time"
+    },
+    {
+      "company": "EventRay",
+      "location": "Santiago, CL",
+      "position": "Cofounder, Software Engineer",
+      "remote": true,
+      "employmentType": "full-time"
+    },
+    {
+      "company": "Adtec Digital",
+      "location": "Jacksonville, FL",
+      "position": "Embedded Systems Software Developer",
+      "remote": false,
+      "employmentType": "full-time"
+    },
+    {
+      "company": "ACRE",
+      "location": "Jacksonville, FL",
+      "position": "Intern Web Developer",
+      "remote": false,
+      "employmentType": "internship"
+    }
+  ],
+  "education": [{
+    "school": "University of North Florida",
+    "location": "Jacksonville, FL",
+    "degree": "BS CompSci",
+    "start": "September 2004",
+    "end": "May 2009",
+    "description": [
+      "Graduated with honors",
+      "Varsity Athlete, Cross Country, Track & Field"
+    ]
+  }],
+  "skillProgramming": [
+    "Node.js",
+    "TypeScript",
+    "THREE.js",
+    "React",
+    "Linux/POSIX"
+  ],
+  "skillTools": [
+    "Vite",
+    "Blender",
+    "Figma",
+    "Git",
+    "Github",
+    "Copilot",
+    "NeoVim"
+  ],
+  "skillConcepts": [
+    "Data Structures",
+    "Algorithms",
+    "OOP",
+    "Functional programming",
+    "Reactive programming",
+    "Web standards",
+    "3D graphics",
+    "Trigonometry",
+    "ECS",
+    "Actor model",
+    "Data-oriented design",
+    "System design"
+  ],
+  "skillSoft": [
+    "Visual design",
+    "UX",
+    "Agile",
+    "Writing",
+    "Listening & Cooperation"
+  ],
+  "skillLanguages": [
+    "Spanish (elementary)",
+    "Japanese (elementary)",
+    "English (native)"
+  ],
+  "projects": [
+    {
+      "name": "innerlogic.co/game",
+      "href": "https://innerlogic.co/game",
+      "description": "untitled WIP block-pushing puzzle game. WASD controls. Z to undo. Mouse wheel to zoom."
+    },
+    {
+      "name": "No internet",
+      "href": "https://maladr0it.github.io/ggj2024/",
+      "description": "clone of a Google Chrome easter egg, with some twists."
+    },
+    {
+      "name": "Kbdsmash",
+      "href": "https://trashmoon.itch.io/kbdsmash",
+      "description": "local multiplayer game to make learning to type fun, and devious."
+    },
+    {
+      "name": "Too Many Monkey",
+      "href": "https://toomanymonkey.com/",
+      "description": "tower defense game."
+    },
+    {
+      "name": "This resume",
+      "href": "https://github.com/patreeceeo/resume2024",
+      "description": "A simple Vite project."
+    }
+  ]
+}
+
