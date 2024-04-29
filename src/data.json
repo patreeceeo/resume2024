@@ -8,12 +8,12 @@
       "employmentType": "self-employed",
       "start": "February 2023",
       "description": [
+        "Designed & implemented netcode for fast-paced multiplayer game",
+        "Set up Linux Web server in my garage (innerlogic.co) to host my projects",
+        "Wrote game code that renders animated 3D environment at 120+ FPS in Web browsers",
         "Designed & implemented reactive ECS",
         "Experimented successfully with Actor model-based concurrency",
-        "Designed & implemented level editor",
-        "Wrote game code that renders animated 3D environment at 120+ FPS in Web browsers",
-        "Set up Linux Web server in my garage (innerlogic.co) to host my projects",
-        "Designed & implemented netcode for fast-paced multiplayer game"
+        "Designed & implemented level editor"
       ]
     },
     {
@@ -138,7 +138,11 @@
     "TypeScript",
     "THREE.js",
     "React",
-    "Linux/POSIX"
+    "Linux/POSIX",
+    "Ruby",
+    "Python",
+    "C#",
+    "Elixir"
   ],
   "skillTools": [
     "Vite",
