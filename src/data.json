@@ -3,43 +3,83 @@
     {
       "company": "innerlogic.co",
       "location": "San Francisco",
-      "position": "Game developer / technical writer",
+      "position": "Intern Web Developer",
       "remote": false,
       "employmentType": "self-employed",
-      "start": "February 2023",
+      "start": "June 2022",
       "description": [
-        "Designed & implemented netcode for fast-paced multiplayer game",
-        "Set up Linux Web server in my garage (innerlogic.co) to host my projects",
         "Wrote game code that renders animated 3D environment at 120+ FPS in Web browsers",
+        "Set up Linux Web server in my garage to host my projects",
         "Designed & implemented reactive ECS",
-        "Experimented successfully with Actor model-based concurrency",
-        "Designed & implemented level editor"
+        "Implemented netcode for fast-paced multiplayer game",
+        "Designed & implemented SaaS level editor",
+        "Designed & implemented real-time collaborative MIDI synthesizer"
+      ],
+      "skills": [
+        "Node.js",
+        "TypeScript",
+        "THREE.js",
+        "WebGL",
+        "Elixir",
+        "Linux",
+        "Apache",
+        "WebSockets",
+        "Netcode",
+        "REST APIs",
+        "MIDI",
+        "Web Audio",
+        "Unit testing",
+        "Project management",
+        "UX research",
+        "Rapid prototyping",
+        "Entrepreneurship "
       ]
     },
     {
       "company": "Mappa Labs",
       "location": "San Francisco",
-      "position": "Technical consultant",
+      "position": "Lead software engineer",
       "remote": true,
       "employmentType": "contract",
-      "start": "July 2022",
+      "start": "September 2022",
       "end": "January 2023",
       "description": [
-        "Integrated A* path-finding into AI for non-player characters",
-        "Fixed bugs in Physics system",
+        "Utilized A* for effecient path-finding in dynamic 3D environments",
+        "Fixed critical bug in physics engine integration",
         "Advised with regards to best practices and efficient collaboration workflows"
+      ],
+      "skills": [
+        "Node.js",
+        "TypeScript",
+        "THREE.js",
+        "WebGL",
+        "WebSockets",
+        "Path-finding algorithms",
+        "Heuristics",
+        "Analytic geometry",
+        "Rapier physics engine",
+        "Engineering leadership"
       ]
     },
     {
       "company": "Infinite Reality",
       "location": "San Francisco",
-      "position": "Technical consultant",
+      "position": "Sr. Software Engineer",
       "remote": true,
       "employmentType": "contract",
       "start": "July 2021",
       "end": "January 2022",
       "description": [
-        "Designed & implemented system that transforms data from GIS services (e.g. Mapbox) into 3D environments during gameplay"
+        "Designed & implemented system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay."
+      ],
+      "skills": [
+        "Node.js",
+        "TypeScript",
+        "THREE.js",
+        "WebGL",
+        "Algorithms",
+        "Data structures",
+        "Web Workers"
       ]
     },
     {
@@ -52,20 +92,23 @@
       "end": "January 2021",
       "description": [
         "Implemented microservice that reduced time to first meaningful paint for Web property by ~15%",
-        "Developed internal tooling, because it was worth doing",
-        "Mentored junior engineers"
-      ]
-    },
-    {
-      "company": "EventRay",
-      "location": "San Francisco",
-      "position": "Cofounder, Software Engineer",
-      "remote": true,
-      "employmentType": "full-time",
-      "start": "November 2016",
-      "end": "February 2018",
-      "description": [
-        "Designed & implemented WYSIWYG form builder"
+        "Developed Pull Request status Slack bot in my spare time",
+        "Contributed article on long-lived HTTP connections to engineering blog",
+        "Mentored other engineers"
+      ],
+      "skills": [
+        "Node.js",
+        "TypeScript",
+        "React",
+        "Redux w/ Sagas",
+        "Angular",
+        "Single-Page Applications (SPA)",
+        "Ajax",
+        "Jest",
+        "Scala",
+        "Microservice Architecture",
+        "CSS",
+        "Accessibility"
       ]
     },
     {
@@ -76,50 +119,90 @@
       "employmentType": "full-time",
       "description": [
         "Created rapid prototyping scaffold",
-        "Implemented “replay recent trips” feature using GIS data from onboard telemetry devices"
+        "Implemented “replay recent trips” feature using GIS data from onboard telemetry devices",
+        "Created reusable components that improve perceived page load time"
+      ],
+      "skills": [
+        "JavaScript",
+        "Angular",
+        "Single-Page Applications (SPA)",
+        "Ajax",
+        "CSS"
       ]
-    },
-    {
-      "company": "GoGet.Fit",
-      "location": "Various",
-      "position": "Software Engineer",
-      "remote": true,
-      "employmentType": "contract"
-    },
-    {
-      "company": "Synack",
-      "location": "Redwood City, CA",
-      "position": "Software Engineer",
-      "remote": false,
-      "employmentType": "full-time"
     },
     {
       "company": "Constant Contact",
       "location": "San Francisco",
       "position": "Software Engineer",
       "remote": false,
-      "employmentType": "full-time"
+      "employmentType": "full-time",
+      "description": [
+        "Created reusable calendar component which set new standard for JavaScript code quality within the company",
+        "Was instrumental in the effort to incorporate automated testing of frontend code into CI/CD",
+        "Assigned to a two-person team that served as standard bearers for frontend code within the company"
+      ],
+      "skills": [
+        "JavaScript",
+        "Backbone",
+        "Ruby",
+        "MVC",
+        "Jasmine",
+        "Single-Page Applications (SPA)",
+        "Ajax",
+        "CSS"
+      ]
     },
     {
       "company": "EventRay",
-      "location": "Santiago, CL",
+      "location": "San Francisco / Santiago, CL",
       "position": "Cofounder, Software Engineer",
       "remote": true,
-      "employmentType": "full-time"
+      "employmentType": "full-time",
+      "description": [
+        "Created presentation which helped us get selected by Chile's Y-Combinator.",
+        "Designed & implemented logic-enabled WYSIWYG form builder"
+      ],
+      "skills": [
+        "JavaScript",
+        "Backbone",
+        "Python",
+        "Microservice Architecture",
+        "Single-Page Applications (SPA)",
+        "Ajax",
+        "CSS",
+        "Entrepreneurship "
+      ]
     },
     {
       "company": "Adtec Digital",
       "location": "Jacksonville, FL",
       "position": "Embedded Systems Software Developer",
       "remote": false,
-      "employmentType": "full-time"
+      "employmentType": "full-time",
+      "description": [
+        "Wrote Linux daemons in C++ for embedded systems",
+        "Implemented SNMP client and server"
+      ],
+      "skills": [
+        "C++",
+        "Linux"
+      ]
     },
     {
       "company": "ACRE",
       "location": "Jacksonville, FL",
       "position": "Intern Web Developer",
       "remote": false,
-      "employmentType": "internship"
+      "employmentType": "internship",
+      "description": [
+        "Went beyond simply updating website and created admin CRUD UI in PHP so that realtors could update the site themselves"
+      ],
+      "skills": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     }
   ],
   "education": [{
@@ -131,6 +214,21 @@
     "description": [
       "Graduated with honors",
       "Varsity Athlete, Cross Country, Track & Field"
+    ],
+    "skills": [
+      "Linux",
+      "C",
+      "C#",
+      "Java",
+      "Algorithms",
+      "Data structures",
+      "Computability",
+      "Discrete Math",
+      "Linear Algebra",
+      "Statistics",
+      "Web Design & Development",
+      "Compilers",
+      "Entrepreneurship"
     ]
   }],
   "skillProgramming": [
@@ -138,7 +236,7 @@
     "TypeScript",
     "THREE.js",
     "React",
-    "Linux/POSIX",
+    "Linux",
     "Ruby",
     "Python",
     "C#",

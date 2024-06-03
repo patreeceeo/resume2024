@@ -45,22 +45,31 @@ table {
 
 /** VARIABLES **/
 :root {
-  --color-green: #1db36a;
-  --color-blue: #1e90ff;
-  --color-red: #ff4d4d;
-  --color-purple: #a64dff;
-  --color-orange: #cc6600;
-  --color-pink: #ff66a3;
+  --color-accent: #b18dd5;
+  --color-text: #444;
 }
 
 
 /** COLORS **/
 a {
-  color: var(--color-orange);
+  color: var(--color-accent);
 }
 
 h1, h2 {
-  color: var(--color-green);
+  color: var(--color-accent);
+}
+
+body {
+  color: var(--color-text);
+}
+
+.skill {
+  color: white;
+  background-color: var(--color-accent);
+}
+
+.list .list-item::before {
+  color: var(--color-accent);
 }
 
 
@@ -112,7 +121,6 @@ date {
 }
 .list .list-item::before {
   content: 'λ';
-  color: var(--color-green);
   font-weight: 900;
   margin-right: 0.5rem;
 }
@@ -123,27 +131,11 @@ date {
 
 .skill {
   display: inline-block;
-  padding: 0.25rem;
+  padding: 0.5rem;
   margin: 0.25rem;
-  color: white;
-  border-radius: 0.25rem;
-  font-weight: 500;
+  border-radius: 0.5rem;
+  font-weight: 700;
   font-size: 0.75rem;
-}
-.skill.skill-programming {
-  background-color: var(--color-orange);
-}
-.skill.skill-tool {
-  background-color: var(--color-red);
-}
-.skill.skill-concept {
-  background-color: var(--color-purple);
-}
-.skill.skill-soft {
-  background-color: var(--color-blue);
-}
-.skill.skill-language {
-  background-color: var(--color-green);
 }
 
 
@@ -151,10 +143,10 @@ date {
 body {
   margin: 0 auto;
 }
-h2 {
+h2, h3 {
   margin-top: 2rem;
 }
-h3, p {
+p {
   margin-top: 1rem;
 }
 h2, p {
