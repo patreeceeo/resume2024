@@ -3,36 +3,34 @@
     {
       "company": "innerlogic.co",
       "location": "San Francisco",
-      "position": "Intern Web Developer",
+      "position": "Independent game developer",
       "remote": false,
       "employmentType": "self-employed",
       "start": "June 2022",
       "description": [
-        "Wrote game code that renders animated 3D environment at 120+ FPS in Web browsers",
-        "Set up Linux Web server in my garage to host my projects",
-        "Designed & implemented reactive ECS",
-        "Implemented netcode for fast-paced multiplayer game",
-        "Designed & implemented SaaS level editor",
-        "Designed & implemented real-time collaborative MIDI synthesizer"
+        "Developed a prototype in ~1 mo",
+        "Spent following 9 mos developing a full version",
+        "Spent ~20 cumulative hrs watching people play my game & collecting feedback",
+        "Presented at the local NodeJS meetup",
+        "Set up Linux Web server (innerlogic.co) in my garage"
       ],
       "skills": [
         "Node.js",
         "TypeScript",
         "THREE.js",
-        "WebGL",
+        "Web Standards",
+        "REST APIs",
+        "Playwright",
         "Elixir",
         "Linux",
         "Apache",
-        "WebSockets",
+        "Blender",
         "Netcode",
-        "REST APIs",
-        "MIDI",
-        "Web Audio",
-        "Unit testing",
         "Project management",
         "UX research",
         "Rapid prototyping",
-        "Entrepreneurship "
+        "Entrepreneurship",
+        "Observables"
       ]
     },
     {
@@ -44,7 +42,7 @@
       "start": "September 2022",
       "end": "January 2023",
       "description": [
-        "Utilized A* for effecient path-finding in dynamic 3D environments",
+        "Utilized A* for efficient path-finding in dynamic 3D environments",
         "Fixed critical bug in physics engine integration",
         "Advised with regards to best practices and efficient collaboration workflows"
       ],
@@ -304,6 +302,13 @@
       "href": "https://github.com/patreeceeo/resume2024",
       "description": "A simple Vite project."
     }
+  ],
+  "facts": [
+    "Spent most of 2015 traveling and immersing myself in foreign cultures.",
+    "Worked on a startup in Chile.",
+    "Spent most of 2023 & 2024 as an independent game developer.",
+    "Have hosted a bi-weekly drawing meetup since 2021.",
+    "Live in a co-op with a dozen other people."
   ]
 }
 

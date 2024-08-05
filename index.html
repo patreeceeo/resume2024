@@ -50,8 +50,16 @@
               </li>
             </ul>
           </b>
-          <h2>Statement</h2>
-          <p>Software engineer of a highly collaborative, creative sort. Comfortable with ambiguity, can break down large projects, delegate, iterate rapidly with an eye for design and usability.</p>
+          <p>Big-brain ideas can have practical benefits, sometimes!</p>
+          <p>Curiosity &gt; knowledge</p>
+          <h2>Fun facts</h2>
+          <div class="list" aria-role="list">
+          {{#facts}}
+            <div class="list-item" aria-role="list-item">
+            {{this}}
+            </div>
+          {{/facts}}
+          </div>
           <h2>Projects</h2>
           {{#projects}}
           <article>
