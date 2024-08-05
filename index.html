@@ -7,48 +7,65 @@
     <title>Resume of Patrick Canfield, Software Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
   </head>
   <body>
-    <main>
-      <table> <!-- I know this isn't semantically correct, but it's just for printing -->
-        <tr>
-          <td>
+    <table> <!-- I know this isn't semantically correct, but it's just for printing -->
+      <tr>
+        <td>
+          <main>
             <h1>Patrick Canfield</h1>
             <h2>Experience</h2>
-            <div id="divExperience"></div>
-          </td>
-          <td style="max-width: 20rem">
-            <h2>Contact Info</h2>
+            {{#experience}}
+            <h3><b>{{company}}</b> {{location}} &mdash; <i>{{position}}</i> {{#remote}}remote{{/remote}}</h3>
+            <date>
+            {{start}}{{#start}} &mdash; {{#if end}}{{end}}{{else}}present{{/if}}{{/start}}
+            </date>
+            {{#skills}}<span class="skill">{{this}}</span>{{/skills}}
+            <div class="list" aria-role="list">
+              {{#description}}<div class="list-item" aria-role="list-item">{{this}}</div>{{/description}}
+            </div>
+            {{/experience}}
+          </main>
+        </td>
+        <td style="max-width: 20rem">
+          <h2>Contact Info</h2>
+          <p>
+          1148 Masonic Ave, San Francisco, CA 94117<br/>
+          </p>
+          <b> <!-- I know this isn't kosher, but this is just for printing -->
+            <ul>
+              <li>
+                <a href="tel:+13213628084">(321) 362-8084</a><br/>
+              </li>
+              <li>
+                <a href="mailto:pscale01@gmail.com">pscale01@gmail.com</a><br/>
+              </li>
+              <li>
+                <a href="https://github.com/patreeceeo">github.com/patreeceeo</a><br/>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/patrick-canfield-1/">LinkedIn</a><br/>
+              </li>
+            </ul>
+          </b>
+          <h2>Statement</h2>
+          <p>Software engineer of a highly collaborative, creative sort. Comfortable with ambiguity, can break down large projects, delegate, iterate rapidly with an eye for design and usability.</p>
+          <h2>Projects</h2>
+          {{#projects}}
+          <article>
+            <h3><a href="{{href}}">{{name}}</a></h3>
             <p>
-            1148 Masonic Ave, San Francisco, CA 94117<br/>
+            {{description}}
             </p>
-            <b> <!-- I know this isn't kosher, but this is just for printing -->
-              <ul>
-                <li>
-                    <a href="tel:+13213628084">(321) 362-8084</a><br/>
-                </li>
-                <li>
-                    <a href="mailto:pscale01@gmail.com">pscale01@gmail.com</a><br/>
-                </li>
-                <li>
-                    <a href="https://github.com/patreeceeo">github.com/patreeceeo</a><br/>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/patrick-canfield-1/">LinkedIn</a><br/>
-                </li>
-              </ul>
-            </b>
-            <h2>Statement</h2>
-            <p>Software engineer of a highly collaborative, creative sort. Comfortable with ambiguity, can break down large projects, delegate, iterate rapidly with an eye for design and usability.</p>
-            <h2>Projects</h2>
-            <div id="divProjects"></div>
-            <h2>Education</h2>
-            <div id="divEducation"></div>
-          </td>
-        </tr>
-      </table>
-    </main>
-    <script type="module" src="/src/main.ts"></script>
+          </article>
+          {{/projects}}
+          <h2>Education</h2>
+          <h3><b>University of North Florida</b> <i>BS CompSci</i></h3>
+          <date>May 2009</date>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
