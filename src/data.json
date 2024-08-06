@@ -7,6 +7,7 @@
       "remote": false,
       "employmentType": "self-employed",
       "start": "June 2022",
+      "end": "present",
       "description": [
         "Developed a prototype in ~1 mo",
         "Spent following 9 mos developing a full version",
@@ -16,6 +17,7 @@
       ],
       "skills": [
         "Node.js",
+        "React",
         "TypeScript",
         "THREE.js",
         "Web Standards",
@@ -48,6 +50,7 @@
       ],
       "skills": [
         "Node.js",
+        "React",
         "TypeScript",
         "THREE.js",
         "WebGL",
@@ -72,6 +75,7 @@
       ],
       "skills": [
         "Node.js",
+        "React",
         "TypeScript",
         "THREE.js",
         "WebGL",
