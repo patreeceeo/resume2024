@@ -227,24 +227,6 @@
         "C++",
         "Linux"
       ]
-    },
-    {
-      "company": "ACRE",
-      "location": "Jacksonville, FL",
-      "position": "Intern Web Developer",
-      "remote": false,
-      "employmentType": "internship",
-      "start": "December 2006",
-      "end": "June 2008",
-      "description": [
-        "Went beyond simply updating website and created admin CRUD UI in PHP so that realtors could update the site themselves"
-      ],
-      "skills": [
-        "PHP",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
     }
   ],
   "education": [{
@@ -273,48 +255,6 @@
       "Entrepreneurship"
     ]
   }],
-  "skillProgramming": [
-    "Node.js",
-    "TypeScript",
-    "THREE.js",
-    "React",
-    "Linux",
-    "Ruby",
-    "Python",
-    "C#",
-    "Elixir"
-  ],
-  "skillTools": [
-    "Vite",
-    "Blender",
-    "Figma",
-    "Git",
-    "Github",
-    "Copilot",
-    "NeoVim"
-  ],
-  "skillConcepts": [
-    "Data Structures",
-    "Algorithms",
-    "OOP",
-    "Functional programming",
-    "Reactive programming",
-    "Web standards",
-    "3D graphics",
-    "Trigonometry",
-    "ECS",
-    "Actor model",
-    "Data-oriented design",
-    "System design"
-  ],
-  "skillSoft": [
-    "Visual design",
-    "UX",
-    "Agile",
-    "Writing",
-    "Listening",
-    "Cooperation"
-  ],
   "skillLanguages": [
     "Spanish",
     "Japanese",
@@ -340,17 +280,11 @@
       "name": "Too Many Monkey",
       "href": "https://toomanymonkey.com/",
       "description": "tower defense game."
-    },
-    {
-      "name": "This resume",
-      "href": "https://github.com/patreeceeo/resume2024",
-      "description": "A simple Vite project."
     }
   ],
   "facts": [
     "Spent most of 2015 traveling and immersing myself in foreign cultures.",
     "Worked on a startup in Chile.",
-    "Spent most of 2023 & 2024 as an independent game developer.",
     "Have hosted a bi-weekly drawing meetup since 2021.",
     "Live in a co-op with a dozen other people."
   ]
