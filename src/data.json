@@ -1,24 +1,51 @@
 {
   "experience": [
     {
+      "company": "fetchtable",
+      "location": "San Francisco",
+      "position": "Sr. Software Engineer",
+      "remote": true,
+      "employmentType": "volunteer",
+      "start": "June 2024",
+      "end": "present",
+      "description": [
+        "D&I'ing new features in a mature Rails project with complex Active Record models"
+      ],
+      "skills": [
+        "Ruby",
+        "Rails",
+        "ActiveRecord",
+        "RSpec",
+        "Redis",
+        "UX research"
+      ]
+    },
+    {
       "company": "innerlogic.co",
       "location": "San Francisco",
       "position": "Independent game developer",
       "remote": false,
       "employmentType": "self-employed",
-      "start": "June 2022",
+      "start": "February 2023",
       "end": "present",
       "description": [
         "Developed a prototype in ~1 mo",
         "Spent following 9 mos developing a full version",
         "Spent ~20 cumulative hrs watching people play my game & collecting feedback",
         "Presented at the local NodeJS meetup",
+        "D&I'd a level editor",
+        "D&I'd realtime game state undo/rewind",
+        "D&I'd an efficient serializable ECS",
+        "Created animated 3D models using Blender and Mixamo",
         "Set up Linux Web server (innerlogic.co) in my garage"
       ],
       "skills": [
         "Node.js",
         "React",
         "TypeScript",
+        "Data structures",
+        "Algorithms",
+        "Object-Oriented Design",
         "THREE.js",
         "Web Standards",
         "REST APIs",
@@ -27,7 +54,6 @@
         "Linux",
         "Apache",
         "Blender",
-        "Netcode",
         "Project management",
         "UX research",
         "Rapid prototyping",
@@ -52,6 +78,8 @@
         "Node.js",
         "React",
         "TypeScript",
+        "Data structures",
+        "Algorithms",
         "THREE.js",
         "WebGL",
         "WebSockets",
@@ -59,7 +87,7 @@
         "Heuristics",
         "Analytic geometry",
         "Rapier physics engine",
-        "Engineering leadership"
+        "Leadership"
       ]
     },
     {
@@ -71,16 +99,16 @@
       "start": "July 2021",
       "end": "January 2022",
       "description": [
-        "Designed & implemented system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay."
+        "D&I'd system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay."
       ],
       "skills": [
         "Node.js",
         "React",
         "TypeScript",
-        "THREE.js",
-        "WebGL",
         "Algorithms",
         "Data structures",
+        "THREE.js",
+        "WebGL",
         "Web Workers"
       ]
     },
@@ -93,7 +121,7 @@
       "start": "October 2018",
       "end": "January 2021",
       "description": [
-        "Implemented microservice that reduced time to first meaningful paint for Web property by ~15%",
+        "D&I'd microservice that reduced time to first meaningful paint for Web property by ~15%",
         "Developed Pull Request status Slack bot in my spare time",
         "Contributed article on long-lived HTTP connections to engineering blog",
         "Mentored other engineers"
@@ -119,6 +147,8 @@
       "position": "Software Engineer",
       "remote": false,
       "employmentType": "full-time",
+      "start": "March 2016",
+      "end": "November 2016",
       "description": [
         "Created rapid prototyping scaffold",
         "Implemented “replay recent trips” feature using GIS data from onboard telemetry devices",
@@ -138,6 +168,8 @@
       "position": "Software Engineer",
       "remote": false,
       "employmentType": "full-time",
+      "start": "March 2013",
+      "end": "March 2014",
       "description": [
         "Created reusable calendar component which set new standard for JavaScript code quality within the company",
         "Was instrumental in the effort to incorporate automated testing of frontend code into CI/CD",
@@ -158,11 +190,14 @@
       "company": "EventRay",
       "location": "San Francisco / Santiago, CL",
       "position": "Cofounder, Software Engineer",
-      "remote": true,
+      "remote": false,
       "employmentType": "full-time",
+      "start": "March 2012",
+      "end": "January 2018",
       "description": [
         "Created presentation which helped us get selected by Chile's Y-Combinator.",
-        "Designed & implemented logic-enabled WYSIWYG form builder"
+        "Designed & implemented logic-enabled WYSIWYG form builder",
+        "Note: We took a Haitus for a few years after StartUp Chile while I worked a Constant Contact, Metromile"
       ],
       "skills": [
         "JavaScript",
@@ -182,6 +217,8 @@
       "position": "Embedded Systems Software Developer",
       "remote": false,
       "employmentType": "full-time",
+      "start": "June 2008",
+      "end": "December 2011",
       "description": [
         "Wrote Linux daemons in C++ for embedded systems",
         "Implemented SNMP client and server"
@@ -197,6 +234,8 @@
       "position": "Intern Web Developer",
       "remote": false,
       "employmentType": "internship",
+      "start": "December 2006",
+      "end": "June 2008",
       "description": [
         "Went beyond simply updating website and created admin CRUD UI in PHP so that realtors could update the site themselves"
       ],

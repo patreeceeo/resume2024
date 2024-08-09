@@ -75,7 +75,7 @@ body {
 
 /** TYPOGRAPHY **/
 :root {
-  font-size: 11pt;
+  font-size: 10pt;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -107,7 +107,8 @@ b {
   font-weight: 900;
 }
 
-date {
+date,
+small {
   font-size: 1rem;
   font-weight: 200;
   display: block;
@@ -159,3 +160,6 @@ td {
   padding-right: 2rem;
 }
 
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
