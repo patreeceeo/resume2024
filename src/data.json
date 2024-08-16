@@ -29,18 +29,17 @@
       "start": "February 2023",
       "end": "present",
       "description": [
-        "Developed a prototype in ~1 mo",
-        "Spent following 9 mos developing a full version",
+        "Rapidly prototyped (~1mo) and iterated on a game concept using TypeScript/NodeJS",
         "Spent ~20 cumulative hrs watching people play my game & collecting feedback",
         "Presented my work at the local NodeJS meetup",
-        "Designed/implemented a level editor",
-        "Designed/implemented realtime game state undo/rewind",
-        "Designed/implemented an efficient serializable ECS",
+        "Designed/implemented a level editor with a backend for persistence",
+        "Designed/implemented realtime game state undo/rewind because the game is hard",
+        "Designed/implemented an efficient serializable ECS that integrates with the editor",
         "Created animated 3D models using Blender and Mixamo",
-        "Set up Linux Web server (innerlogic.co) in my garage"
+        "Spun up my own physical Web demo server (innerlogic.co) using Linux/Apache/NodeJS"
       ],
       "skills": [
-        "Node.js",
+        "NodeJS",
         "React",
         "TypeScript",
         "Data structures",
@@ -70,12 +69,12 @@
       "start": "September 2022",
       "end": "January 2023",
       "description": [
-        "Utilized A* for efficient path-finding in dynamic 3D environments",
-        "Fixed critical bug in physics engine integration",
+        "Utilized A* for efficient path-finding in dynamic 3D environments in TypeScript",
+        "Fixed critical bug in JavaScript physics engine integration",
         "Advised with regards to best practices and efficient collaboration workflows"
       ],
       "skills": [
-        "Node.js",
+        "NodeJS",
         "React",
         "TypeScript",
         "Data structures",
@@ -99,10 +98,10 @@
       "start": "July 2021",
       "end": "January 2022",
       "description": [
-        "Designed/implemented system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay."
+        "Designed/implemented system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay using TypeScript."
       ],
       "skills": [
-        "Node.js",
+        "NodeJS",
         "React",
         "TypeScript",
         "Algorithms",
@@ -127,7 +126,7 @@
         "Mentored other engineers"
       ],
       "skills": [
-        "Node.js",
+        "NodeJS",
         "TypeScript",
         "React",
         "Redux w/ Sagas",
