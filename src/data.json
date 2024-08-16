@@ -9,7 +9,7 @@
       "start": "June 2024",
       "end": "present",
       "description": [
-        "D&I'ing new features in a mature Rails project with complex Active Record models"
+        "Designing/implementing new features in a mature Rails project with complex Active Record models"
       ],
       "skills": [
         "Ruby",
@@ -32,10 +32,10 @@
         "Developed a prototype in ~1 mo",
         "Spent following 9 mos developing a full version",
         "Spent ~20 cumulative hrs watching people play my game & collecting feedback",
-        "Presented at the local NodeJS meetup",
-        "D&I'd a level editor",
-        "D&I'd realtime game state undo/rewind",
-        "D&I'd an efficient serializable ECS",
+        "Presented my work at the local NodeJS meetup",
+        "Designed/implemented a level editor",
+        "Designed/implemented realtime game state undo/rewind",
+        "Designed/implemented an efficient serializable ECS",
         "Created animated 3D models using Blender and Mixamo",
         "Set up Linux Web server (innerlogic.co) in my garage"
       ],
@@ -99,7 +99,7 @@
       "start": "July 2021",
       "end": "January 2022",
       "description": [
-        "D&I'd system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay."
+        "Designed/implemented system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay."
       ],
       "skills": [
         "Node.js",
@@ -121,7 +121,7 @@
       "start": "October 2018",
       "end": "January 2021",
       "description": [
-        "D&I'd microservice that reduced time to first meaningful paint for Web property by ~15%",
+        "Designed/implemented microservice that reduced time to first meaningful paint for Web property by ~15%",
         "Developed Pull Request status Slack bot in my spare time",
         "Contributed article on long-lived HTTP connections to engineering blog",
         "Mentored other engineers"

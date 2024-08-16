@@ -17,14 +17,13 @@
           <main>
             <h1>Patrick Canfield</h1>
             <h2>Experience</h2>
-            <small>Note: D&amp;I = Design &amp; Implement</small>
             {{#experience}}
             <div class="pagebreak">
               <h3><b>{{company}}</b> {{location}} &mdash; <i>{{position}}</i>, {{#remote}}remote{{/remote}} {{employmentType}}</h3>
               <date>
               {{start}}&mdash; {{end}}
               </date>
-              {{#skills}}<span class="skill">{{this}}</span>{{/skills}}
+              {{#skills}}<span class="skill">{{this}}</span> {{/skills}}
               <div class="list" aria-role="list">
                 {{#description}}<div class="list-item" aria-role="list-item">{{this}}</div>{{/description}}
               </div>
