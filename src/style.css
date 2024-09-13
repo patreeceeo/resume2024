@@ -45,7 +45,7 @@ table {
 
 /** VARIABLES **/
 :root {
-  --color-accent: #b18dd5;
+  --color-accent: #00549E;
   --color-text: #444;
 }
 
@@ -64,8 +64,8 @@ body {
 }
 
 .skill {
-  color: white;
-  background-color: var(--color-accent);
+  color: var(--color-accent);
+  outline: 1px solid var(--color-accent);
 }
 
 .list .list-item::before {
@@ -78,24 +78,25 @@ body {
   font-size: 10pt;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Palatino, serif;
   width: 9.5in;
+}
+
+h1, h2, h3 {
+  font-family: Trebuchet MS, sans-serif;
 }
 
 h1 {
   font-size: 3rem;
-  font-family: 'Paytone One', sans-serif;
 }
 
 h2 {
   font-size: 1.5rem;
-  font-family: 'Paytone One', sans-serif;
   text-transform: uppercase;
 }
 
 h3 {
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -133,8 +134,8 @@ small {
 .skill {
   display: inline-block;
   padding: 0.5rem;
+  padding-bottom: 0.25rem;
   margin: 0.25rem;
-  border-radius: 0.5rem;
   font-weight: 700;
   font-size: 0.75rem;
 }
@@ -150,7 +151,7 @@ h2, h3 {
 p {
   margin-top: 1rem;
 }
-h2, p {
+h1, h2, p {
   margin-bottom: 1rem;
 }
 h3, date, .list-item {
