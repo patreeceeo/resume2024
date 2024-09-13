@@ -1,4 +1,36 @@
 {
+  "skills": [
+    "Data structures",
+    "Algorithms",
+    "Object-Oriented Design",
+    "Functional Programming",
+    "Agile",
+    "NodeJS",
+    "JavaScript/TypeScript",
+    "React",
+    "Vite",
+    "Yarn",
+    "CSS Preprocessors",
+    "Entity-Component Systems",
+    "THREE.js",
+    "Web Standards",
+    "REST APIs",
+    "Test frameworks (e.g. Playwright, Jest)",
+    "Linux",
+    "Elixir",
+    "Phoenix",
+    "Ruby",
+    "Rails",
+    "Python",
+    "Apache",
+    "D3.js",
+    "UX research",
+    "Rapid prototyping",
+    "Leadership",
+    "Accessibility",
+    "Entrepreneurship",
+    "Japanese"
+  ],
   "experience": [
     {
       "company": "innerlogic.co",
@@ -9,35 +41,17 @@
       "start": "February 2023",
       "end": "present",
       "description": [
-        "Rapidly prototyped (~1mo) and iterated on a game concept using TypeScript/NodeJS",
-        "Attended 4+ play tests, watching people play my game, collecting feedback",
+        "Unless otherwise stated, the following tech was implemented with TypeScript, NodeJS and Web standards",
+        "I need to be able to create levels for the game. Instead of editing level data by hand, which would be slow and error-prone, I created a user-friendly visual editor that allows me to rapidly iterate on level designs",
+        "Rapidly prototyped (~1mo) and iterated on a game concept",
+        "Attended several play tests, watching people play my game, collecting feedback which I used to help prioritize my work",
         "Presented my work at the local NodeJS meetup",
-        "Designed/implemented a level editor with a backend for persistence",
-        "Designed/implemented an efficient serializable ECS that integrates with the editor",
-        "Designed/implemented realtime game state undo/rewind",
+        "Rolled my own ECS, drawing on an insight I had about Set theory + OOP + observables, allowing me to define easy-to-use, type-safe, serializable components and efficient queries",
+        "Applied the command pattern to allow for infinite undo. Undo applies to all moving entities, not just the player.",
+        "Applied double dispatch pattern to simplify entity interaction, removing ~100 conditional-heavy LOC, enabling faster product iteration",
         "Created animated 3D models using Blender and Mixamo",
-        "Spun up my own physical Web demo server (innerlogic.co) using Linux/Apache/NodeJS"
-      ],
-      "skills": [
-        "NodeJS",
-        "TypeScript",
-        "React",
-        "Elixir",
-        "Phoenix",
-        "Data structures",
-        "Algorithms",
-        "Object-Oriented Design",
-        "Entity-Component Systems",
-        "THREE.js",
-        "Web Standards",
-        "REST APIs",
-        "Playwright",
-        "Linux",
-        "Apache",
-        "Blender",
-        "Project management",
-        "UX research",
-        "Rapid prototyping"
+        "Spun up my own physical Web demo server using Linux/Apache/NodeJS",
+        "In a seperate project, I used Elixir/Phoenix to create a multiplayer guitar"
       ]
     },
     {
@@ -49,7 +63,8 @@
       "start": "June 2024",
       "end": "present",
       "description": [
-        "Designing/implementing new features in a mature Rails project with complex Active Record models"
+        "Helping build an app that facilitates sharing a CSA box between multiple households, with the physical distribution being handled by end users",
+        "As a user of this app, I want to be able to easily see, for a given item in a given order, what ratio goes to my house vs. certain other house(s), so that's what I'm working on."
       ],
       "skills": [
         "Ruby",
@@ -70,23 +85,8 @@
       "end": "January 2023",
       "description": [
         "Utilized A* for efficient path-finding in dynamic 3D environments in TypeScript",
-        "Fixed critical bug in JavaScript physics engine integration",
+        "Fixed a bug in the engine that made physics bodies difficult to control",
         "Advised with regards to best practices and efficient collaboration workflows"
-      ],
-      "skills": [
-        "NodeJS",
-        "React",
-        "TypeScript",
-        "Data structures",
-        "Algorithms",
-        "THREE.js",
-        "WebGL",
-        "WebSockets",
-        "Path-finding algorithms",
-        "Heuristics",
-        "Analytic geometry",
-        "Rapier physics engine",
-        "Leadership"
       ]
     },
     {
@@ -98,17 +98,7 @@
       "start": "July 2021",
       "end": "January 2022",
       "description": [
-        "Designed/implemented system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay using TypeScript."
-      ],
-      "skills": [
-        "NodeJS",
-        "React",
-        "TypeScript",
-        "Algorithms",
-        "Data structures",
-        "THREE.js",
-        "WebGL",
-        "Web Workers"
+        "Designed/implemented system that transforms data from GIS services (e.g. Mapbox) into 1000s of polygons per second, recreating real city streets in 3D during gameplay."
       ]
     },
     {
@@ -120,24 +110,10 @@
       "start": "October 2018",
       "end": "January 2021",
       "description": [
-        "Designed/implemented microservice that reduced time to first meaningful paint for Web property by ~15%",
-        "Developed Pull Request status Slack bot in my spare time",
+        "Designed/implemented microservice that reduced time to first meaningful paint for benefits portal by ~15%",
+        "Developed Pull Request status Slack bot in my spare time to make it easier for engineers to identify PRs that needed reviews",
         "Contributed article on long-lived HTTP connections to engineering blog",
         "Mentored other engineers"
-      ],
-      "skills": [
-        "NodeJS",
-        "TypeScript",
-        "React",
-        "Redux w/ Sagas",
-        "Angular",
-        "Single-Page Applications (SPA)",
-        "Ajax",
-        "Jest",
-        "Scala",
-        "Microservice Architecture",
-        "CSS",
-        "Accessibility"
       ]
     },
     {
@@ -152,13 +128,6 @@
         "Created rapid prototyping scaffold",
         "Implemented “replay recent trips” feature using GIS data from onboard telemetry devices",
         "Created reusable components that improve perceived page load time"
-      ],
-      "skills": [
-        "JavaScript",
-        "Angular",
-        "Single-Page Applications (SPA)",
-        "Ajax",
-        "CSS"
       ]
     },
     {
@@ -173,16 +142,6 @@
         "Created reusable calendar component which set new standard for JavaScript code quality within the company",
         "Was instrumental in the effort to incorporate automated testing of frontend code into CI/CD",
         "Assigned to a two-person team that served as standard bearers for frontend code within the company"
-      ],
-      "skills": [
-        "JavaScript",
-        "Backbone",
-        "Ruby",
-        "MVC",
-        "Jasmine",
-        "Single-Page Applications (SPA)",
-        "Ajax",
-        "CSS"
       ]
     },
     {
@@ -197,34 +156,6 @@
         "Created presentation which helped us get selected by Chile's Y-Combinator.",
         "Designed & implemented logic-enabled WYSIWYG form builder",
         "Note: We took a Haitus for a few years after StartUp Chile while I worked a Constant Contact, Metromile"
-      ],
-      "skills": [
-        "JavaScript",
-        "Backbone",
-        "D3.js",
-        "Python",
-        "Microservice Architecture",
-        "Single-Page Applications (SPA)",
-        "Ajax",
-        "CSS",
-        "Entrepreneurship "
-      ]
-    },
-    {
-      "company": "Adtec Digital",
-      "location": "Jacksonville, FL",
-      "position": "Embedded Systems Software Developer",
-      "remote": false,
-      "employmentType": "full-time",
-      "start": "June 2008",
-      "end": "December 2011",
-      "description": [
-        "Wrote Linux daemons in C++ for embedded systems",
-        "Implemented SNMP client and server"
-      ],
-      "skills": [
-        "C++",
-        "Linux"
       ]
     }
   ],

@@ -11,71 +11,81 @@
     <link rel="stylesheet" href="src/style.css">
   </head>
   <body>
-    <table> <!-- I know this isn't semantically correct, but it's just for printing -->
-      <tr>
-        <td>
-          <main>
-            <h1>Patrick Canfield</h1>
-            <h2>Experience</h2>
-            {{#experience}}
-            <div class="pagebreak">
-              <h3><b>{{company}}</b> {{location}} &mdash; <i>{{position}}</i>, {{#remote}}remote{{/remote}} {{employmentType}}</h3>
-              <date>
-              {{start}}&mdash; {{end}}
-              </date>
-              {{#skills}}<span class="skill">{{this}}</span> {{/skills}}
-              <div class="list" aria-role="list">
-                {{#description}}<div class="list-item" aria-role="list-item">{{this}}</div>{{/description}}
-              </div>
-            </div>
-            {{/experience}}
-          </main>
-        </td>
-        <td style="max-width: 20rem">
-          <h2>Contact Info</h2>
-          <p>
-          1148 Masonic Ave, San Francisco, CA 94117<br/>
-          </p>
-          <b> <!-- I know this isn't kosher, but this is just for printing -->
-            <ul>
-              <li>
-                <a href="tel:+13213628084">(321) 362-8084</a><br/>
-              </li>
-              <li>
-                <a href="mailto:pscale01@gmail.com">pscale01@gmail.com</a><br/>
-              </li>
-              <li>
-                <a href="https://github.com/patreeceeo">github.com/patreeceeo</a><br/>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/patrick-canfield-1/">LinkedIn</a><br/>
-              </li>
-            </ul>
-          </b>
-          <p>Big-brain ideas can have practical benefits, sometimes!</p>
-          <p>Curiosity &gt; knowledge</p>
-          <h2>Fun facts</h2>
+    <main>
+      <h1>Patrick Canfield</h1>
+      
+      <article>
+        <address>1148 Masonic Ave, San Francisco, CA 94117</address>
+        <b> <!-- I know this isn't kosher, but this is just for printing -->
+          <ul>
+            <li>
+              <a href="tel:+13213628084">(321) 362-8084</a>
+            </li>
+            <li>
+              <a href="mailto:pscale01@gmail.com">pscale01@gmail.com</a>
+            </li>
+            <li>
+              <a href="https://github.com/patreeceeo">github.com/patreeceeo</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/patrick-canfield-1/">LinkedIn</a><br/>
+            </li>
+          </ul>
+        </b>
+      </article>
+
+      <p>Curiosity &gt; knowledge</p>
+
+      <article>
+        <!-- TODO categorize skills -->
+        <h2>Skills</h2>
+        {{#skills}}<span class="skill">{{this}}</span> {{/skills}}
+      </article>
+
+      <article>
+        <h2>Experience</h2>
+        {{#experience}}
+        <div>
+          <h3><b>{{company}}</b> {{location}} &mdash; <i>{{position}}</i>, {{#remote}}remote{{/remote}} {{employmentType}}</h3>
+          <date>
+          {{start}}&mdash; {{end}}
+          </date>
           <div class="list" aria-role="list">
-          {{#facts}}
-            <div class="list-item" aria-role="list-item">
-            {{this}}
-            </div>
-          {{/facts}}
+            {{#description}}<div class="list-item" aria-role="list-item">{{this}}</div>{{/description}}
           </div>
-          <h2>Projects</h2>
-          {{#projects}}
-          <article>
-            <h3><a href="{{href}}">{{name}}</a></h3>
-            <p>
-            {{description}}
-            </p>
-          </article>
-          {{/projects}}
-          <h2>Education</h2>
-          <h3><b>University of North Florida</b> <i>BS CompSci</i></h3>
-          <date>May 2009</date>
-        </td>
-      </tr>
-    </table>
+        </div>
+        {{/experience}}
+      </article>
+
+      <article>
+        <h2>Education</h2>
+        <h3><b>University of North Florida</b> <i>BS CompSci</i></h3>
+        <date>May 2009</date>
+        University Honors
+      </article>
+
+      </article>
+      <h2>Projects</h2>
+      {{#projects}}
+      <article>
+        <h3><a href="{{href}}">{{name}}</a></h3>
+        <p>
+        {{description}}
+        </p>
+      </article>
+      {{/projects}}
+      </article>
+
+      <article>
+        <h2>Fun facts</h2>
+        <div class="list" aria-role="list">
+          {{#facts}}
+          <div class="list-item" aria-role="list-item">
+            {{this}}
+          </div>
+          {{/facts}}
+        </div>
+      </article>
+    </main>
   </body>
 </html>
