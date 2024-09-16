@@ -68,11 +68,6 @@ body {
   outline: 1px solid var(--color-accent);
 }
 
-.list .list-item::before {
-  color: var(--color-accent);
-}
-
-
 /** TYPOGRAPHY **/
 :root {
   font-size: 10pt;
@@ -108,6 +103,11 @@ b {
   font-weight: 900;
 }
 
+ul {
+  list-style-type:disc;
+  list-style-position: inside;
+}
+
 date,
 small {
   font-size: 1rem;
@@ -116,16 +116,6 @@ small {
 }
 
 /** LISTS **/
-
-.list .list-item {
-  display: flex;
-  flex-direction: row;
-}
-.list .list-item::before {
-  content: 'λ';
-  font-weight: 900;
-  margin-right: 0.5rem;
-}
 
 #divSkills {
   margin-left: -0.25rem;

@@ -13,7 +13,8 @@
   <body>
     <main>
       <h1>Patrick Canfield</h1>
-      
+      <h2>Software Engineer &mdash; Web &mdash; Games &mdash; Innovation</h2>
+      <h3>Curiosity &gt; knowledge</h3>
       <article>
         <address>1148 Masonic Ave, San Francisco, CA 94117</address>
         <b> <!-- I know this isn't kosher, but this is just for printing -->
@@ -34,12 +35,19 @@
         </b>
       </article>
 
-      <p>Curiosity &gt; knowledge</p>
 
       <article>
-        <!-- TODO categorize skills -->
         <h2>Skills</h2>
-        {{#skills}}<span class="skill">{{this}}</span> {{/skills}}
+        <dl>
+        {{#each skills}}
+          <dt>{{@key}}</dt>
+          <dd>
+          {{#this}}
+            <span class="skill">{{this}}</span>
+          {{/this}}
+          </dd>
+        {{/each}}
+        </dl>
       </article>
 
       <article>
@@ -50,9 +58,9 @@
           <date>
           {{start}}&mdash; {{end}}
           </date>
-          <div class="list" aria-role="list">
-            {{#description}}<div class="list-item" aria-role="list-item">{{this}}</div>{{/description}}
-          </div>
+          <ul>
+            {{#description}}<li>{{this}}</li>{{/description}}
+          </ul>
         </div>
         {{/experience}}
       </article>

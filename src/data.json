@@ -1,36 +1,50 @@
 {
-  "skills": [
-    "Data structures",
-    "Algorithms",
-    "Object-Oriented Design",
-    "Functional Programming",
-    "Agile",
-    "NodeJS",
-    "JavaScript/TypeScript",
-    "React",
-    "Vite",
-    "Yarn",
-    "CSS Preprocessors",
-    "Entity-Component Systems",
-    "THREE.js",
-    "Web Standards",
-    "REST APIs",
-    "Test frameworks (e.g. Playwright, Jest)",
-    "Linux",
-    "Elixir",
-    "Phoenix",
-    "Ruby",
-    "Rails",
-    "Python",
-    "Apache",
-    "D3.js",
-    "UX research",
-    "Rapid prototyping",
-    "Leadership",
-    "Accessibility",
-    "Entrepreneurship",
-    "Japanese"
-  ],
+  "skills": {
+    "Web development": [
+      "NodeJS",
+      "JavaScript/TypeScript",
+      "React",
+      "Vite",
+      "Yarn",
+      "CSS Preprocessors",
+      "Web Standards",
+      "WebGL",
+      "REST APIs",
+      "Apache",
+      "D3.js"
+    ],
+    "Game development": [
+      "Entity-Component Systems",
+      "THREE.js",
+      "Unity",
+      "Godot"
+    ],
+    "General purpose tech": [
+      "Test frameworks (e.g. Playwright, Jest)",
+      "Linux",
+      "Elixir",
+      "Phoenix",
+      "Ruby",
+      "Rails",
+      "Python"
+    ],
+    "Computer Science": [
+      "Data structures",
+      "Algorithms",
+      "OOP",
+      "Functional Programming"
+    ],
+    "Misc": [
+      "Object-Oriented Design",
+      "Agile",
+      "UX research",
+      "Rapid prototyping",
+      "Leadership",
+      "Accessibility",
+      "Entrepreneurship",
+      "Japanese"
+    ]
+  },
   "experience": [
     {
       "company": "innerlogic.co",
@@ -42,7 +56,7 @@
       "end": "present",
       "description": [
         "Unless otherwise stated, the following tech was implemented with TypeScript, NodeJS and Web standards",
-        "I need to be able to create levels for the game. Instead of editing level data by hand, which would be slow and error-prone, I created a user-friendly visual editor that allows me to rapidly iterate on level designs",
+        "I needed to be able to create levels for the game. Instead of editing level data by hand, which would be slow and error-prone, I created a user-friendly visual editor that allows me to rapidly iterate on level designs",
         "Rapidly prototyped (~1mo) and iterated on a game concept",
         "Attended several play tests, watching people play my game, collecting feedback which I used to help prioritize my work",
         "Presented my work at the local NodeJS meetup",
@@ -65,14 +79,6 @@
       "description": [
         "Helping build an app that facilitates sharing a CSA box between multiple households, with the physical distribution being handled by end users",
         "As a user of this app, I want to be able to easily see, for a given item in a given order, what ratio goes to my house vs. certain other house(s), so that's what I'm working on."
-      ],
-      "skills": [
-        "Ruby",
-        "Rails",
-        "ActiveRecord",
-        "RSpec",
-        "Redis",
-        "UX research"
       ]
     },
     {
@@ -168,28 +174,8 @@
     "description": [
       "Graduated with honors",
       "Varsity Athlete, Cross Country, Track & Field"
-    ],
-    "skills": [
-      "Linux",
-      "C",
-      "C#",
-      "Java",
-      "Algorithms",
-      "Data structures",
-      "Computability",
-      "Discrete Math",
-      "Linear Algebra",
-      "Statistics",
-      "Web Design & Development",
-      "Compilers",
-      "Entrepreneurship"
     ]
   }],
-  "skillLanguages": [
-    "Spanish",
-    "Japanese",
-    "English"
-  ],
   "projects": [
     {
       "name": "innerlogic.co/game",
