@@ -116,9 +116,6 @@ small {
   flex-wrap: wrap;
 
   list-style-type: none;
-  & li:first-child {
-    list-style-type: none;
-  }
 
   & li {
     margin-right: 0.5rem;
@@ -126,7 +123,11 @@ small {
 }
 
 ul.bullet-delim {
-  list-style-type: disc;
+  li:not(:last-child):after {
+    content: "•";
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 }
 
 
