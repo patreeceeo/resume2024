@@ -55,17 +55,12 @@ a {
   color: var(--color-accent);
 }
 
-h1, h2 {
+h1, h2, h3, dt {
   color: var(--color-accent);
 }
 
 body {
   color: var(--color-text);
-}
-
-.skill {
-  color: var(--color-accent);
-  outline: 1px solid var(--color-accent);
 }
 
 /** TYPOGRAPHY **/
@@ -77,12 +72,12 @@ body {
   width: 9.5in;
 }
 
-h1, h2, h3 {
+h1, h2, h3, dt {
   font-family: Trebuchet MS, sans-serif;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -90,9 +85,8 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
-  font-size: 1rem;
-  font-weight: 500;
+h3, dt {
+  text-transform: uppercase;
 }
 
 i {
@@ -117,17 +111,22 @@ small {
 
 /** LISTS **/
 
-#divSkills {
-  margin-left: -0.25rem;
+.inline-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+  & li:first-child {
+    list-style-type: none;
+  }
+
+  & li {
+    margin-right: 0.5rem;
+  }
 }
 
-.skill {
-  display: inline-block;
-  padding: 0.5rem;
-  padding-bottom: 0.25rem;
-  margin: 0.25rem;
-  font-weight: 700;
-  font-size: 0.75rem;
+ul.bullet-delim {
+  list-style-type: disc;
 }
 
 
@@ -141,10 +140,10 @@ h2, h3 {
 p {
   margin-top: 1rem;
 }
-h1, h2, p {
+h1, h2, h3, p, dd {
   margin-bottom: 1rem;
 }
-h3, date, .list-item {
+date, .list-item {
   margin-bottom: 0.5rem;
 }
 td {

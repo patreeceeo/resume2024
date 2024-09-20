@@ -13,28 +13,24 @@
   <body>
     <main>
       <h1>Patrick Canfield</h1>
-      <h2>Software Engineer &mdash; Web &mdash; Games &mdash; Innovation</h2>
-      <h3>Curiosity &gt; knowledge</h3>
-      <article>
-        <address>1148 Masonic Ave, San Francisco, CA 94117</address>
-        <b> <!-- I know this isn't kosher, but this is just for printing -->
-          <ul>
-            <li>
-              <a href="tel:+13213628084">(321) 362-8084</a>
-            </li>
-            <li>
-              <a href="mailto:pscale01@gmail.com">pscale01@gmail.com</a>
-            </li>
-            <li>
-              <a href="https://github.com/patreeceeo">github.com/patreeceeo</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/patrick-canfield-1/">LinkedIn</a><br/>
-            </li>
-          </ul>
-        </b>
-      </article>
-
+      <h2>Software Engineer | Full-Stack Developer</h3>
+      <ul class="inline-list bullet-delim">
+        <li>
+          San Francisco, CA
+        </li>
+        <li>
+          <a href="tel:+13213628084">(321) 362-8084</a>
+        </li>
+        <li>
+          <a href="mailto:pscale01@gmail.com">pscale01@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://github.com/patreeceeo">github.com/patreeceeo</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/patrick-lee-canfield/">LinkedIn</a><br/>
+        </li>
+      </ul>
 
       <article>
         <h2>Skills</h2>
@@ -42,9 +38,13 @@
         {{#each skills}}
           <dt>{{@key}}</dt>
           <dd>
+          <ul class="inline-list">
           {{#this}}
-            <span class="skill">{{this}}</span>
+            <li>
+            {{this}},
+            </li>
           {{/this}}
+          </ul>
           </dd>
         {{/each}}
         </dl>
@@ -56,7 +56,7 @@
         <div>
           <h3><b>{{company}}</b> {{location}} &mdash; <i>{{position}}</i>, {{#remote}}remote{{/remote}} {{employmentType}}</h3>
           <date>
-          {{start}}&mdash; {{end}}
+          {{start}} &mdash; {{end}}
           </date>
           <ul>
             {{#description}}<li>{{this}}</li>{{/description}}
@@ -67,7 +67,7 @@
 
       <article>
         <h2>Education</h2>
-        <h3><b>University of North Florida</b> <i>BS CompSci</i></h3>
+        <h3><b>University of North Florida</b> <i>Bachelor of Science in Computer Science</i></h3>
         <date>May 2009</date>
         University Honors
       </article>
